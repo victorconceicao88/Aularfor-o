@@ -10,8 +10,6 @@ int main() {
     
     string nomeFuncionario,sobrenomeFuncionario;
     double salarioFuncionario;
-    double valorDesconto = salarioFuncionario * 0.10;
-    double salarioDescontado = salarioFuncionario - valorDesconto;
     cout << "Digite o primeiro nome do Funcionario:" << endl;
     cin >> nomeFuncionario;
     cout << "Digite o sobrenome do Funcionario:" << endl;
@@ -20,6 +18,8 @@ int main() {
     cin >> salarioFuncionario;
     cout << "O nome completo Do Funcionario é:" << nomeFuncionario + " " + sobrenomeFuncionario <<endl;
     cout << fixed << setprecision(2);
+    double valorDesconto = salarioFuncionario * 0.10;
+    double salarioDescontado = salarioFuncionario - valorDesconto;
     cout <<" o salario deste funcionario menos 10 porcento e de : " << salarioDescontado << endl;
     return 0;
 }
