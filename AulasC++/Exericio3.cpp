@@ -3,6 +3,9 @@
 # Ao clicar no 2 fazer um cadastro ler (nome e idade) e apresentar o nome e idade do usuario
 
 
+
+
+
 #include <iostream>
 #include <string>
 
@@ -30,14 +33,14 @@ int main() {
             cout << "o valor mensal é de 49.90 R$ por mês ! Aproveite a Oferta e bora fazer o cadastro?" << endl;
             break;
         case 2:
-            cout << "Informe o primeiro nome do aluno: ";
+            cout << "Qual o seu primeiro nome? ";
             cin >> nomeAluno;
-            cout << "Informe o sobrenome do aluno: ";
+            cout << "Qual o seu sobrenome? ";
             cin >> sobrenomeAluno;
-            cout << "Informe a idade do aluno: ";
+            cout << "Qual a sua Idade? ";
             cin >> idadeAluno;
-            cout << "O nome completo do novo aluno é:" << nomeAluno + " " + sobrenomeAluno <<endl;
-            cout << "e sua idade é :" << idadeAluno <<endl;
+            cout << "O seu nome completo é:" << nomeAluno + " " + sobrenomeAluno <<endl;
+            cout << "e voçê tem:" << idadeAluno << "anos de idade" <<endl;
             break;
     }
 
